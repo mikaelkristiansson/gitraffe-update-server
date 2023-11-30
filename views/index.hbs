@@ -85,6 +85,12 @@
         white-space: nowrap;
       }
 
+      .downloadcount {
+        color: #404040;
+        white-space: nowrap;
+        margin-left: 8px;
+      }
+
       footer {
         display: flex;
         align-items: center;
@@ -136,6 +142,7 @@
               <div class="item">
                 <div class="fileType">{{@key}}: <span class="url"><a href={{this.url}}>/latest/{{@key}}</a></span></div>
                 <div class="size">{{this.size}} MB</div>
+                <div class="downloadcount">{{this.download_count}}</div>
               </div>
             {{/each}}
           </div>
