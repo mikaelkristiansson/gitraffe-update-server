@@ -1,14 +1,14 @@
 {
-  "name": "electron-hazel-update-server",
-  "version": "5.1.4",
+  "name": "gitraffe-update-server",
+  "version": "1.0.0",
   "main": "lib/index.js",
-  "description": "Lightweight update server for Electron apps",
+  "description": "Lightweight update server for tauri apps",
   "scripts": {
     "dev": "npx vercel dev",
     "test": "xo && jest"
   },
   "license": "MIT",
-  "repository": "Deamoner/hazel",
+  "repository": "mikaelkristiansson/gitraffe-update-server",
   "xo": {
     "extends": [
       "prettier"
