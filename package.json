@@ -4,15 +4,12 @@
   "main": "lib/index.js",
   "description": "Lightweight update server for tauri apps",
   "scripts": {
-    "dev": "npx vercel dev",
     "test": "xo && jest"
   },
   "license": "MIT",
   "repository": "mikaelkristiansson/gitraffe-update-server",
   "xo": {
-    "extends": [
-      "prettier"
-    ],
+    "extends": ["prettier"],
     "rules": {
       "camelcase": 0,
       "new-cap": 0,
